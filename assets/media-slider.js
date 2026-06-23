@@ -15,8 +15,8 @@
   if (!section || !img || !caption) return;
 
 const slides = [
-{ src: "assets/slide-1.jpg", caption: "IEEE PES GM with A. sec Gene Rodrigues, U.S. Department of Energy" },
-{ src: "assets/slide-2.jpg", caption: "IEEE PES GM with the founder of Schweitzer Engineering Laboratories" },
+{ src: "assets/slide-1.jpg", caption: "IEEE PES GM with the founder of Schweitzer Engineering Laboratories" },
+{ src: "assets/slide-2.jpg", caption: "IEEE PES GM with A. sec Gene Rodrigues, U.S. Department of Energy" },
 { src: "assets/slide-3.jpg", caption: "Electrical and electronics engineering laboratory engagement" },
 { src: "assets/slide-4.jpg", caption: "Research group mentoring and project discussion" },
 { src: "assets/slide-5.jpg", caption: "LANL mentors Dr. Russel Bent and Dr. Harsha Nagranjan at Grid Science" }
