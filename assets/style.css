@@ -234,12 +234,14 @@ strong {
 .news-list {
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 
 .news-list li {
   display: grid;
   grid-template-columns: 125px minmax(0, 1fr);
   gap: 14px;
+  align-items: start;
   margin-bottom: 10px;
   padding: 10px 0;
   border-bottom: 1px solid var(--line);
@@ -255,7 +257,8 @@ strong {
   white-space: nowrap;
 }
 
-.news-list div {
+.news-list p {
+  margin: 0;
   min-width: 0;
 }
 
@@ -434,10 +437,14 @@ code {
     height: 150px;
   }
 
-  .news-list li,
   .timeline-row {
     grid-template-columns: 1fr;
     gap: 2px;
+  }
+
+  .news-list li {
+    grid-template-columns: 100px minmax(0, 1fr);
+    gap: 10px;
   }
 
   .nav {
