@@ -451,3 +451,47 @@ code {
     gap: 14px;
   }
 }
+
+
+/* Restoration/fault animated background */
+#restoration-bg {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  background: #02040a;
+}
+
+body {
+  background: #02040a;
+}
+
+.topbar,
+.site-grid,
+.footer {
+  position: relative;
+  z-index: 1;
+}
+
+.content,
+.sidebar {
+  background: rgba(255, 255, 255, 0.90);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.content {
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.18);
+}
+
+.sidebar {
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.20);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #restoration-bg {
+    opacity: 0.55;
+  }
+}

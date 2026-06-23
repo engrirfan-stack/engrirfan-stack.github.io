@@ -1,12 +1,25 @@
-# Homepage intro and latest news fix
+# Restoration background animation for GitHub Pages
 
-Upload these two files to the same paths in your GitHub Pages repository:
+This package adds an original animated canvas background to your website.
 
-- index.html
-- assets/style.css
+Upload these files to the same paths in your repository:
+
+- `index.html`
+- `assets/style.css`
+- `assets/restoration-bg.js`
 
 Commit message:
 
-Brief intro and fix latest news layout
+`Add restoration background animation`
 
-This version shortens the intro and fixes Latest News so each item displays as a date plus one continuous text line.
+After deployment, open:
+
+`https://engrirfan-stack.github.io/?bg=restoration1`
+
+What it does:
+- Starts in a blackout state.
+- Shows a fault flash.
+- Restores nodes sequentially from node to node.
+- Sends glowing packets through restored paths.
+- Loops continuously.
+- Uses no external libraries and no stock video files.
