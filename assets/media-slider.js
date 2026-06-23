@@ -14,13 +14,14 @@
   const caption = document.getElementById("media-caption");
   if (!section || !img || !caption) return;
 
-  const slides = [
-    { src: "assets/slide-1.jpg", caption: "IEEE PES General Meeting professional highlight" },
-    { src: "assets/slide-2.jpg", caption: "IEEE PES General Meeting networking and professional engagement" },
-    { src: "assets/slide-3.jpg", caption: "Power systems laboratory, teaching, and student engagement" },
-    { src: "assets/slide-4.jpg", caption: "Research discussion and collaborative project meeting" },
-    { src: "assets/slide-5.jpg", caption: "Grid Science and power systems research collaboration" }
-  ];
+const slides = [
+{ src: "assets/slide-1.jpg", caption: "IEEE PES GM with A. sec Gene Rodrigues, U.S. Department of Energy" },
+{ src: "assets/slide-2.jpg", caption: "IEEE PES GM with the founder of Schweitzer Engineering Laboratories" },
+{ src: "assets/slide-3.jpg", caption: "Electrical and electronics engineering laboratory engagement" },
+{ src: "assets/slide-4.jpg", caption: "Research group mentoring and project discussion" },
+{ src: "assets/slide-5.jpg", caption: "LANL mentors Dr. Russel Bent and Dr. Harsha Nagranjan at Grid Science" }
+];
+
 
   let idx = 0;
 
