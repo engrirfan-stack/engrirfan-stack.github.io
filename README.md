@@ -1,25 +1,20 @@
-# Restoration background animation for GitHub Pages
+# GitHub Pages update: fault-restoration background plus 5-slide media slider
 
-This package adds an original animated canvas background to your website.
+Upload these files/folders to the repository root:
 
-Upload these files to the same paths in your repository:
-
-- `index.html`
-- `assets/style.css`
-- `assets/restoration-bg.js`
+- index.html
+- assets/style.css
+- assets/restoration-bg.js
+- assets/media-slider.js
+- assets/slide-1.jpg
+- assets/slide-2.jpg
+- assets/slide-3.jpg
+- assets/slide-4.jpg
+- assets/slide-5.jpg
 
 Commit message:
 
-`Add restoration background animation`
+Add restoration background and five-slide media showcase
 
 After deployment, open:
-
-`https://engrirfan-stack.github.io/?bg=restoration1`
-
-What it does:
-- Starts in a blackout state.
-- Shows a fault flash.
-- Restores nodes sequentially from node to node.
-- Sends glowing packets through restored paths.
-- Loops continuously.
-- Uses no external libraries and no stock video files.
+https://engrirfan-stack.github.io/?slides=5
