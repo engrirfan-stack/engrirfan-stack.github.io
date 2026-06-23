@@ -3,336 +3,116 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Irfan Ullah | Power Systems Research</title>
-  <meta name="description" content="Academic profile and research portfolio for Irfan Ullah, Ph.D. researcher in power systems, black-start restoration, maximal load delivery, DER coordination, and uncertainty-aware optimization.">
+  <title>Home | Irfan Ullah</title>
+  <meta name="description" content="Academic website for Irfan Ullah, power systems researcher focused on resilient distribution systems, black-start restoration, maximal load delivery, DER coordination, and robust operation of data-center power infrastructure.">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-grid">
-      <div>
-        <p class="eyebrow">Power and Energy Systems Research</p>
-        <h1>Irfan Ullah</h1>
-        <p class="subtitle">Ph.D. Researcher, Electrical Engineering, Power Systems</p>
-        <p class="subtitle">Texas A&amp;M University | College Station, Texas</p>
-        <p class="subtitle">Grid resilience, distribution system restoration, DER coordination, and optimization</p>
-      </div>
-      <nav aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#research">Research</a>
-        <a href="#projects">Projects</a>
-        <a href="#publications">Publications</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#service">Service</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <header class="masthead">
+    <div class="container header-row">
+      <a class="brand" href="index.html">Irfan Ullah</a>
+      
+<nav class="top-nav" aria-label="Main navigation">
+  <a href="index.html">Home</a>
+  <a href="research.html">Research</a>
+  <a href="publications.html">Publications</a>
+  <a href="tools.html">Tools and Skills</a>
+  <a href="cv.html">CV</a>
+  <a href="service.html">Service</a>
+</nav>
+
     </div>
   </header>
+  <div class="container layout">
+    
+<aside class="sidebar">
+  <img class="avatar" src="assets/profile.svg" alt="Profile placeholder for Irfan Ullah">
+  <h2>Irfan Ullah</h2>
+  <p class="sidebar-title">Ph.D. Researcher in Electrical Engineering</p>
+  <p>Power and Energy Systems<br>Texas A&amp;M University</p>
+  <p class="small">Grid resilience, distribution restoration, robust optimization, DER coordination, and data-center power infrastructure.</p>
+  <div class="side-links">
+    <a href="mailto:irfan@tamu.edu">irfan@tamu.edu</a>
+    <a href="https://www.linkedin.com/in/irfan2012">LinkedIn</a>
+    <a href="https://github.com/engrirfan-stack">GitHub</a>
+    <a href="cv.html">CV</a>
+  </div>
+</aside>
 
-  <main>
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About</h2>
-        <p>
-          I am a Ph.D. researcher in Electrical Engineering at Texas A&amp;M University working in power and energy systems. My research focuses on resilient operation of electric power distribution systems, with emphasis on black-start restoration, maximal load delivery, microgrid coordination, distributed energy resource integration, and uncertainty-aware optimization under outage and contingency conditions.
-        </p>
-        <p>
-          My work combines mathematical optimization, physics-based distribution-system modeling, multi-phase unbalanced power-flow analysis, and large-scale simulation. I develop computational workflows using Julia, JuMP, PowerModelsDistribution.jl, PowerModelsONM.jl, OpenDSS, Python, and mixed-integer optimization solvers to support restoration decision-making for active distribution networks with inverter-based resources, photovoltaic generation, battery energy storage systems, diesel generation, controllable switches, and critical loads.
-        </p>
-        <p>
-          My current and future research direction is to develop uncertainty-aware and scalable restoration strategies for active distribution systems by integrating robust optimization, DER coordination, real-time decision-making algorithms, pre-event anticipatory scheduling, and post-event restoration and reconfiguration under weather-driven load and DER uncertainty.
-        </p>
-      </div>
-    </section>
+    <main class="content">
+      
+<section class="hero">
+  <p class="eyebrow">Power Systems | Optimization | Grid Resilience</p>
+  <h1>Resilient operation and restoration of active electric power distribution systems</h1>
+  <p class="lead">
+    I develop optimization-driven methodologies for black-start restoration, maximal load delivery, distributed energy resource coordination, and uncertainty-aware operation of active distribution systems.
+  </p>
+  <div class="button-row">
+    <a class="button" href="research.html">Research Portfolio</a>
+    <a class="button secondary" href="publications.html">Publications</a>
+    <a class="button secondary" href="cv.html">CV</a>
+  </div>
+</section>
 
-    <section id="experience" class="section alt">
-      <div class="container">
-        <h2>Experience</h2>
+<section>
+  <h2>Research Profile</h2>
+  <p>
+    I am a Ph.D. researcher in Electrical Engineering at Texas A&amp;M University. My work focuses on resilient power distribution systems, especially restoration and reconfiguration after widespread outages. I formulate mixed-integer and robust optimization models that coordinate grid-forming resources, photovoltaic generation, battery energy storage systems, diesel generation, switching devices, and critical loads.
+  </p>
+  <p>
+    My computational work integrates OpenDSS, Julia, JuMP, PowerModelsDistribution.jl, PowerModelsONM.jl, Python, Gurobi, and HiGHS for physics-aware modeling, optimization, simulation, and post-processing of large-scale unbalanced distribution systems.
+  </p>
+</section>
 
-        <article class="card">
-          <div class="item-head">
-            <div>
-              <h3>Texas A&amp;M University</h3>
-              <p class="role">Ph.D. Researcher, Graduate Research Assistant, Power and Energy Systems</p>
-            </div>
-            <p class="date-place">Aug. 2022 to Present | College Station, TX</p>
-          </div>
-          <ul>
-            <li>Develop optimization-based frameworks for restoration of large-scale electric distribution systems, including analysis of voltage stability, thermal constraints, network topology, DER dispatch, and restoration feasibility.</li>
-            <li>Formulate mixed-integer optimization models for black-start restoration with grid-forming inverter constraints, radial network topology, switching decisions, and scalable feeder restoration logic.</li>
-            <li>Design and execute large-scale simulation studies on the modified Iowa 240-node feeder and Smart-DS systems to evaluate restoration feasibility, operability, and DER coordination under renewable penetration and uncertain operating conditions.</li>
-            <li>Develop computational pipelines that integrate OpenDSS, Julia, Python, and PowerModelsONM for high-throughput restoration studies and scenario evaluation.</li>
-            <li>Advance modeling of voltage regulation, cold load pickup dynamics, multi-phase unbalanced power flow, DER operation, and distribution feeder reconfiguration.</li>
-            <li>Coordinate technical analyses supporting research on resilient and reliable operation of electric power infrastructure.</li>
-          </ul>
-        </article>
+<section>
+  <h2>Current Research Themes</h2>
+  <div class="card-grid">
+    <article class="card">
+      <h3>Black-start restoration</h3>
+      <p>Optimization-based restoration of active distribution networks with grid-forming DERs, radial topology constraints, switching decisions, and sequential load pickup.</p>
+    </article>
+    <article class="card">
+      <h3>Robust maximal load delivery</h3>
+      <p>Two-stage robust optimization for restoring maximum feasible load under uncertain real and reactive demand conditions in large-scale distribution systems.</p>
+    </article>
+    <article class="card">
+      <h3>DER and microgrid coordination</h3>
+      <p>Coordinated operation of PV, BESS, diesel generation, and inverter-based resources for resilient post-outage distribution system operation.</p>
+    </article>
+    <article class="card">
+      <h3>Robust operation of data-center power infrastructure</h3>
+      <p>Emerging research direction on optimization and resilience methods for data-center electric infrastructure, including reliable operation under load growth, DER variability, and contingency conditions.</p>
+    </article>
+  </div>
+</section>
 
-        <article class="card">
-          <div class="item-head">
-            <div>
-              <h3>Los Alamos National Laboratory</h3>
-              <p class="role">Summer Research Intern, Power Systems</p>
-            </div>
-            <p class="date-place">Summers 2024 and 2025 | Los Alamos, NM</p>
-          </div>
-          <ul>
-            <li>Developed uncertainty-aware optimization models for large-scale distribution systems to evaluate restoration strategies under variable load conditions.</li>
-            <li>Extended PowerModelsONM and PowerModelsDistribution-based workflows to model cold load pickup, voltage regulation, and inverter-based DER behavior.</li>
-            <li>Integrated power loss minimization into restoration-focused optimization models for efficiency-aware operation of large-scale distribution networks.</li>
-            <li>Adapted a modified Iowa 240-node model to support validation of black-start restoration strategies under realistic distribution-system conditions.</li>
-            <li>Engineered automated Python workflows for simulation, preprocessing, post-processing, and performance evaluation across multiple scenarios.</li>
-            <li>Identified and resolved modeling inconsistencies and infeasibilities in PowerModelsONM-based studies supporting grid resilience analysis.</li>
-          </ul>
-        </article>
+<section>
+  <h2>Selected Projects</h2>
+  <ul class="feature-list">
+    <li><strong>Uncertainty-aware black-start restoration:</strong> restoration models with DER availability, cold load pickup, voltage and thermal feasibility, topology control, and uncertain load behavior.</li>
+    <li><strong>Two-stage robust MLD:</strong> master-subproblem restoration framework with uncertainty sets, feasibility evaluation, and robust load delivery decisions.</li>
+    <li><strong>Modified Iowa 240-node studies:</strong> large-scale unbalanced feeder studies with PV, BESS, diesel generation, switchable sections, and 24-step restoration behavior.</li>
+    <li><strong>Scenario-based resilience assessment:</strong> PV reduction, DER outage, permanent fault, and combined adverse operating scenarios for restoration-performance evaluation.</li>
+  </ul>
+</section>
 
-        <article class="card">
-          <div class="item-head">
-            <div>
-              <h3>Texas A&amp;M University</h3>
-              <p class="role">Teaching Assistant, ECEN 325 Electronics</p>
-            </div>
-            <p class="date-place">College Station, TX</p>
-          </div>
-          <ul>
-            <li>Supported undergraduate instruction and laboratory sessions in electronics.</li>
-            <li>Guided students in circuit analysis, experimental validation, laboratory procedures, and system-level interpretation of electronic circuits.</li>
-          </ul>
-        </article>
-      </div>
-    </section>
+<section>
+  <h2>Research Output Snapshot</h2>
+  <div class="stats">
+    <div><span>9</span><p>Peer-reviewed publications listed in CV</p></div>
+    <div><span>5</span><p>Poster presentations listed in CV</p></div>
+    <div><span>2024-2025</span><p>LANL summer research internships</p></div>
+    <div><span>2026</span><p>PESGM robust MLD paper accepted</p></div>
+  </div>
+</section>
 
-    <section id="research" class="section">
-      <div class="container">
-        <h2>Research Interests</h2>
-        <ul class="two-col">
-          <li>Black-start restoration of active distribution networks</li>
-          <li>Maximal load delivery and microgrid networking</li>
-          <li>Distribution system restoration after widespread outages</li>
-          <li>Distributed energy resource coordination</li>
-          <li>Battery energy storage dispatch and state-of-charge constraints</li>
-          <li>Photovoltaic generation uncertainty and renewable variability</li>
-          <li>Grid-forming and grid-following inverter modeling</li>
-          <li>Cold load pickup and time-dependent load restoration</li>
-          <li>Multi-phase unbalanced distribution-system optimization</li>
-          <li>Voltage regulation, thermal limits, and operational feasibility</li>
-          <li>Topology reconfiguration, radiality, and switching constraints</li>
-          <li>Mixed-integer linear programming and robust optimization</li>
-          <li>Scenario-based resilience assessment under extreme events</li>
-          <li>OpenDSS, PowerModelsDistribution.jl, and PowerModelsONM.jl workflows</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="projects" class="section alt">
-      <div class="container">
-        <h2>Selected Research Projects</h2>
-
-        <article class="card">
-          <h3>Uncertainty-Aware Black-Start Restoration in Active Distribution Networks</h3>
-          <p>
-            Develops restoration models for distribution systems after widespread outages, with explicit representation of DER availability, switching actions, topology control, voltage and thermal constraints, load pickup timing, and restoration sequence feasibility.
-          </p>
-          <ul>
-            <li>Models sequential energization of loads and network sections using mixed-integer optimization.</li>
-            <li>Represents grid-forming inverter capability, DER commitment, and feeder-level topology constraints.</li>
-            <li>Evaluates restoration performance under uncertain load behavior, cold load pickup, PV variability, DER unavailability, and permanent fault scenarios.</li>
-            <li>Uses OpenDSS-based feeder models, Julia/JuMP optimization, and PowerModelsDistribution/PowerModelsONM formulations.</li>
-          </ul>
-          <p class="tags">Keywords: black-start restoration, distribution restoration, DER coordination, grid-forming inverter, topology control, MILP, uncertainty.</p>
-        </article>
-
-        <article class="card">
-          <h3>Two-Stage Robust Optimization for Maximal Load Delivery</h3>
-          <p>
-            Studies robust maximal load delivery in large-scale distribution systems and networked microgrids under load uncertainty. The work uses master-subproblem decomposition to select restoration and dispatch decisions and then tests feasibility against uncertain operating conditions.
-          </p>
-          <ul>
-            <li>Formulates a two-stage robust optimization structure for restoration feasibility under uncertain load levels.</li>
-            <li>Uses uncertainty sets for real and reactive load variation and subproblem-based feasibility checking.</li>
-            <li>Investigates feasibility-cut generation, worst-case load evaluation, and restoration decisions that remain feasible under uncertainty.</li>
-            <li>Targets large-scale distribution systems with DER, storage, PV, diesel generation, and switchable feeder sections.</li>
-          </ul>
-          <p class="tags">Keywords: maximal load delivery, robust optimization, microgrid networking, feasibility cuts, uncertainty-aware operation.</p>
-        </article>
-
-        <article class="card">
-          <h3>Modified Iowa 240-Node Distribution System Studies</h3>
-          <p>
-            Builds and evaluates restoration studies on a modified Iowa 240-node unbalanced distribution system with multiple feeders, DERs, PV systems, BESS units, diesel generation, and switchable network sections.
-          </p>
-          <ul>
-            <li>Studies 24-step restoration behavior, DER dispatch, load pickup, and feeder reconfiguration.</li>
-            <li>Analyzes phase-level active and reactive power restoration, storage charging/discharging, state-of-charge trajectories, PV availability, and load restoration timing.</li>
-            <li>Uses the test feeder as a large-scale validation platform for black-start restoration, maximal load delivery, robust optimization, and scenario-based resilience assessment.</li>
-          </ul>
-          <p class="tags">Keywords: Iowa 240-node feeder, unbalanced distribution system, OpenDSS, PV, BESS, diesel generation, feeder switching.</p>
-        </article>
-
-        <article class="card">
-          <h3>Power Loss Minimization in Active Distribution Systems</h3>
-          <p>
-            Investigates optimization-based power loss minimization in active distribution systems using PowerModelsDistribution and related distribution-system optimization workflows.
-          </p>
-          <ul>
-            <li>Studies loss-aware operation of active distribution networks with DER integration.</li>
-            <li>Develops computational studies using OpenDSS-derived network models and Julia-based optimization formulations.</li>
-            <li>Connects loss minimization studies to restoration-focused optimization for efficient post-outage operation.</li>
-          </ul>
-          <p class="tags">Keywords: loss minimization, active distribution systems, PowerModelsDistribution, DER operation, distribution optimization.</p>
-        </article>
-
-        <article class="card">
-          <h3>Scenario-Based Resilience Evaluation</h3>
-          <p>
-            Designs and evaluates adverse operating scenarios for distribution-system resilience studies, including renewable reduction, DER outage, permanent fault conditions, and combined contingency cases.
-          </p>
-          <ul>
-            <li>Compares base-case operation with PV reduction, BESS or DER unavailability, non-restorable sections, and combined stress cases.</li>
-            <li>Evaluates restoration behavior using load restored, timing of restoration, phase-level power delivery, feasibility, switching actions, and DER dispatch behavior.</li>
-            <li>Supports quantitative comparison of restoration strategies under realistic operational uncertainty.</li>
-          </ul>
-          <p class="tags">Keywords: resilience metrics, contingency analysis, PV reduction, DER outage, permanent fault, restoration feasibility.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="publications" class="section">
-      <div class="container">
-        <h2>Publications and Presentations</h2>
-
-        <h3>Peer-Reviewed Publications</h3>
-        <ol class="pub-list">
-          <li><strong>I. Ullah</strong>, K. L. Butler-Purry, and H. Nagarajan, "Two-Stage Robust Optimization for Maximal Load Delivery in a Large-Scale Distribution System," Proc. IEEE Power and Energy Society General Meeting (PESGM), Montreal, Canada, Jul. 2026. Accepted.</li>
-          <li><strong>I. Ullah</strong>, K. L. Butler-Purry, and H. Nagarajan, "Studying a Sequential Black Start Restoration Method Using PowerModelsDistribution and PowerModelsONM," Proc. IEEE Texas Power and Energy Conference (TPEC), College Station, TX, USA, Feb. 2026.</li>
-          <li><strong>I. Ullah</strong>, A. Heidari-Akhijahani, and K. L. Butler-Purry, "Studying a Sequential Black Start Restoration Method Using PowerModelsONM.jl," Proc. North American Power Symposium (NAPS), 2025.</li>
-          <li><strong>I. Ullah</strong>, A. Heidari-Akhijahani, and K. L. Butler-Purry, "Sequential Black Start Restoration in Active Distribution Networks and Microgrids Using the PowerModelsDistribution Package," Proc. North American Power Symposium (NAPS), 2024.</li>
-          <li><strong>I. Ullah</strong>, K. L. Butler-Purry, R. Bent, H. Nagarajan, and A. Barnes, "Studying Power Loss Minimization in Active Distribution Systems Using PowerModelsDistribution," Proc. IEEE Texas Power and Energy Conference (TPEC), 2025.</li>
-          <li><strong>I. Ullah</strong>, S. Rahman, and I. A. Khan, "SST-Based Marine Shipboard System for Improved Performance and Renewable Energy Integration," Proc. IEEE Texas Power and Energy Conference (TPEC), 2023.</li>
-          <li>M. Adil, N. Javaid, N. Daood, M. Asim, <strong>I. Ullah</strong>, and M. Bilal, "Big Data-Based Electricity Price Forecasting Using Enhanced Convolutional Neural Networks in the Smart Grid," Proc. International Conference on Advanced Information Networking and Applications Workshops (AINA Workshops), Springer, 2020.</li>
-          <li>W. Ahmad, L. Khan, Q. Khan, and <strong>I. Ullah</strong>, "Advanced Sliding Mode Control Techniques Employed on Electric Hybrid Vehicle," Proc. IEEE Texas Power and Energy Conference (TPEC), 2024.</li>
-          <li>W. Ahmad and <strong>I. Ullah</strong>, "Unified Power Quality Conditioner Based Power Quality Improvement in Microgrid," Proc. IEEE Texas Power and Energy Conference (TPEC), 2025.</li>
-        </ol>
-
-        <h3>Poster Presentations</h3>
-        <ol class="pub-list">
-          <li><strong>I. Ullah</strong> and K. L. Butler-Purry, "Robust Black Start Restoration (RBSR) of Distribution Systems with DER Integration Under Demand Uncertainty," Poster, IEEE PES Transmission &amp; Distribution Conference (PES T&amp;D), May 2026.</li>
-          <li><strong>I. Ullah</strong>, K. L. Butler-Purry, R. Bent, H. Nagarajan, and A. Barnes, "Studying Optimization Approaches in PowerModelsONM for MLD Under Varying Load and PV Behavior," Poster, IEEE Power and Energy Society General Meeting (PES GM), Jul. 2025.</li>
-          <li><strong>I. Ullah</strong> and K. L. Butler-Purry, "Studying a Black Start Restoration for Power Distribution Systems Using the PowerModelsDistribution Package," Poster, IEEE Power and Energy Society General Meeting (PES GM), Jul. 2024.</li>
-          <li><strong>I. Ullah</strong>, K. L. Butler-Purry, R. Bent, H. Nagarajan, and A. Barnes, "Studying a Black Start Restoration in Active Distribution Systems," Poster, Grid Science Winter School and Conference, Jan. 2025.</li>
-          <li><strong>I. Ullah</strong> and K. L. Butler-Purry, "Distribution System Resilience in the Face of Extreme Weather Events," Poster, TAMU/LANL Poster Exhibit and Reception, Mar. 2024.</li>
-        </ol>
-      </div>
-    </section>
-
-    <section id="skills" class="section alt">
-      <div class="container">
-        <h2>Technical Skills</h2>
-        <div class="grid-2">
-          <article class="card compact">
-            <h3>Power Systems</h3>
-            <p>Distribution system modeling, multi-phase unbalanced power flow, voltage regulation, feeder reconfiguration, DER integration, microgrid operation, grid restoration, black-start restoration, and maximal load delivery.</p>
-          </article>
-          <article class="card compact">
-            <h3>Optimization and Modeling</h3>
-            <p>Mixed-integer linear programming, robust optimization, rolling-horizon optimization, stochastic and dynamic programming, convex relaxation, uncertainty-aware modeling, topology constraints, and operational feasibility analysis.</p>
-          </article>
-          <article class="card compact">
-            <h3>Software and Simulation</h3>
-            <p>OpenDSS, PowerModelsDistribution.jl, PowerModelsONM.jl, PowerWorld, PSCAD, MATLAB/Simulink, with exposure to CYME, ETAP, and PSS/E.</p>
-          </article>
-          <article class="card compact">
-            <h3>Programming</h3>
-            <p>Python for automation and data analysis, Julia and JuMP for optimization modeling, MATLAB for numerical analysis and simulation, and GitHub for version control and project organization.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="education" class="section">
-      <div class="container">
-        <h2>Education</h2>
-        <article class="card">
-          <div class="item-head">
-            <div>
-              <h3>Texas A&amp;M University</h3>
-              <p class="role">Ph.D. in Electrical Engineering, Power Systems</p>
-              <p>Research focus: optimization-based restoration and resilient operation of electric power distribution systems, including microgrid coordination, black-start restoration, and uncertainty-aware operation.</p>
-            </div>
-            <p class="date-place">2022 to 2027 expected | College Station, TX</p>
-          </div>
-        </article>
-        <article class="card">
-          <div class="item-head">
-            <div>
-              <h3>COMSATS University Islamabad</h3>
-              <p class="role">M.S. in Electrical Engineering</p>
-            </div>
-            <p class="date-place">2018 to 2020 | Islamabad, Pakistan</p>
-          </div>
-        </article>
-        <article class="card">
-          <div class="item-head">
-            <div>
-              <h3>University of Engineering and Technology</h3>
-              <p class="role">B.S. in Electronics Engineering</p>
-            </div>
-            <p class="date-place">2012 to 2016 | Peshawar, Pakistan</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="service" class="section alt">
-      <div class="container">
-        <h2>Leadership and Professional Service</h2>
-        <ul>
-          <li><strong>Technical Reviewer:</strong> IEEE Power &amp; Energy Society General Meeting and Texas Power &amp; Energy Conference, 2023 to 2026. Reviewed manuscripts in power system optimization, distribution system modeling, and grid resilience.</li>
-          <li><strong>Communication Chair, Texas Power &amp; Energy Conference, 2026:</strong> Led technical communications and outreach, including conference materials, industry engagement, and speaker communications.</li>
-          <li><strong>Promotional Chair, Texas Power &amp; Energy Conference, 2024 to 2025:</strong> Coordinated outreach initiatives to support conference growth and engagement with academic and industry participants.</li>
-          <li><strong>Teaching Assistant, ECEN 325 Electronics:</strong> Supported undergraduate instruction and laboratory sessions in circuit analysis and experimental validation.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="awards" class="section">
-      <div class="container">
-        <h2>Honors and Awards</h2>
-        <ul>
-          <li><strong>Los Alamos National Laboratory Research Collaboration:</strong> Selected for competitive research collaboration on large-scale optimization and resilience of electric power systems.</li>
-          <li><strong>Prime Minister National ICT Scholarship, 2012 to 2016:</strong> Fully funded national scholarship awarded for academic excellence and leadership.</li>
-          <li><strong>Grid Science Winter School Scholarship, 2025:</strong> Merit-based award to attend a research program sponsored by Los Alamos National Laboratory and the U.S. Department of Energy.</li>
-          <li><strong>National ICT Initiative Research Grant, 2015 to 2016:</strong> Awarded for research on antenna design, analysis, and prototyping.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contact" class="section alt">
-      <div class="container">
-        <h2>Contact</h2>
-        <p>
-          I am open to research collaboration, internship and postdoctoral research discussions, conference service, and technical opportunities in power systems, grid resilience, distribution-system optimization, and DER-integrated restoration.
-        </p>
-        <ul class="contact-list">
-          <li>Email: <a href="mailto:irfan@tamu.edu">irfan@tamu.edu</a></li>
-          <li>LinkedIn: <a href="https://www.linkedin.com/in/irfan2012">linkedin.com/in/irfan2012</a></li>
-          <li>GitHub: <a href="https://github.com/engrirfan-stack">github.com/engrirfan-stack</a></li>
-          <li>Location: Bryan/College Station, TX | Open to relocation</li>
-        </ul>
-        <p class="note">Phone number is intentionally not published on this public website. A CV PDF can be added later as cv.pdf if desired.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
+    </main>
+  </div>
+  <footer class="footer">
     <div class="container">
-      <p>&copy; <span id="year"></span> Irfan Ullah. Last updated: June 2026.</p>
+      <p>&copy; <span id="year"></span> Irfan Ullah. Last updated June 2026.</p>
     </div>
   </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>

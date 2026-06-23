@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research | Irfan Ullah</title>
+  <meta name="description" content="Academic website for Irfan Ullah, power systems researcher focused on resilient distribution systems, black-start restoration, maximal load delivery, DER coordination, and robust operation of data-center power infrastructure.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="container header-row">
+      <a class="brand" href="index.html">Irfan Ullah</a>
+      
+<nav class="top-nav" aria-label="Main navigation">
+  <a href="index.html">Home</a>
+  <a href="research.html">Research</a>
+  <a href="publications.html">Publications</a>
+  <a href="tools.html">Tools and Skills</a>
+  <a href="cv.html">CV</a>
+  <a href="service.html">Service</a>
+</nav>
+
+    </div>
+  </header>
+  <div class="container layout">
+    
+<aside class="sidebar">
+  <img class="avatar" src="assets/profile.svg" alt="Profile placeholder for Irfan Ullah">
+  <h2>Irfan Ullah</h2>
+  <p class="sidebar-title">Ph.D. Researcher in Electrical Engineering</p>
+  <p>Power and Energy Systems<br>Texas A&amp;M University</p>
+  <p class="small">Grid resilience, distribution restoration, robust optimization, DER coordination, and data-center power infrastructure.</p>
+  <div class="side-links">
+    <a href="mailto:irfan@tamu.edu">irfan@tamu.edu</a>
+    <a href="https://www.linkedin.com/in/irfan2012">LinkedIn</a>
+    <a href="https://github.com/engrirfan-stack">GitHub</a>
+    <a href="cv.html">CV</a>
+  </div>
+</aside>
+
+    <main class="content">
+      
+<h1>Research</h1>
+<p class="lead">
+  My research develops scalable, uncertainty-aware, and physics-informed optimization methods for resilient distribution-system operation, with emphasis on restoration after widespread outages.
+</p>
+
+<section>
+  <h2>Research Vision</h2>
+  <p>
+    Modern distribution systems increasingly depend on inverter-based resources, distributed storage, photovoltaic generation, flexible loads, microgrids, and automated switching. These resources create both restoration opportunities and operational risks. My work addresses this problem by combining mathematical optimization, distribution-system physics, and large-scale simulation to determine which loads can be restored, when they can be energized, and how DERs and switches should be coordinated while respecting voltage, thermal, topology, and resource constraints.
+  </p>
+</section>
+
+<section>
+  <h2>Research Areas</h2>
+
+  <article class="research-block">
+    <h3>1. Black-Start Restoration in Active Distribution Networks</h3>
+    <p>
+      I formulate optimization models for sequential restoration of distribution systems after widespread outages. The work includes grid-forming inverter representation, DER commitment, radial topology constraints, switching decisions, voltage feasibility, thermal constraints, load pickup timing, and restoration sequence logic.
+    </p>
+    <ul>
+      <li>Sequential energization of blocks, buses, and critical loads.</li>
+      <li>Coordination of PV, BESS, diesel generation, and controllable switches.</li>
+      <li>Cold load pickup and time-dependent restoration behavior.</li>
+      <li>Feeder restoration under topology and operational feasibility constraints.</li>
+    </ul>
+  </article>
+
+  <article class="research-block">
+    <h3>2. Two-Stage Robust Maximal Load Delivery</h3>
+    <p>
+      I study robust maximal load delivery for large-scale distribution systems under uncertain load conditions. The method separates first-stage restoration and dispatch decisions from second-stage feasibility evaluation under load uncertainty.
+    </p>
+    <ul>
+      <li>Master-subproblem decomposition for restoration decision-making.</li>
+      <li>Uncertainty sets for real and reactive load variation.</li>
+      <li>Worst-case feasibility evaluation and feasibility-cut generation.</li>
+      <li>Large-scale validation on unbalanced distribution systems with DERs.</li>
+    </ul>
+  </article>
+
+  <article class="research-block">
+    <h3>3. DER, Microgrid, and Storage Coordination</h3>
+    <p>
+      My work studies how DERs and microgrids can support post-outage operation. This includes grid-forming resources, storage dispatch, PV availability, diesel generation, and battery state-of-charge constraints.
+    </p>
+    <ul>
+      <li>Grid-forming and grid-following inverter behavior.</li>
+      <li>BESS charging/discharging and state-of-charge feasibility.</li>
+      <li>PV uncertainty and weather-driven renewable reduction.</li>
+      <li>Microgrid networking and load restoration sequencing.</li>
+    </ul>
+  </article>
+
+  <article class="research-block">
+    <h3>4. Robust Operation of Data-Center Power Infrastructure</h3>
+    <p>
+      This is an emerging research direction that extends my restoration and robust-operation work toward data-center electric infrastructure. The focus is reliable and resilient operation under high load density, uncertain demand growth, DER integration, backup generation, storage coordination, and contingency-driven operating limits.
+    </p>
+    <ul>
+      <li>Resilient operation of high-density electric loads.</li>
+      <li>Robust scheduling under demand and DER uncertainty.</li>
+      <li>Coordination of utility supply, backup generation, storage, and renewable resources.</li>
+      <li>Contingency-aware operation and restoration of critical digital infrastructure.</li>
+    </ul>
+  </article>
+
+  <article class="research-block">
+    <h3>5. Distribution-System Simulation and Validation Workflows</h3>
+    <p>
+      I build computational workflows connecting OpenDSS feeder models, Julia/JuMP optimization, PowerModelsDistribution.jl, PowerModelsONM.jl, Python automation, and post-processing scripts for large-scale restoration studies.
+    </p>
+    <ul>
+      <li>OpenDSS model preprocessing and feeder validation.</li>
+      <li>Julia/JuMP model development and solver integration.</li>
+      <li>High-throughput scenario evaluation using Python automation.</li>
+      <li>Post-optimization analysis of voltage, power, switching, DER dispatch, and restored load.</li>
+    </ul>
+  </article>
+</section>
+
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Irfan Ullah. Last updated June 2026.</p>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
