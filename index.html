@@ -4,15 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home | Irfan Ullah</title>
-  <meta name="description" content="Academic website for Irfan Ullah, power systems researcher focused on resilient distribution systems, black-start restoration, maximal load delivery, DER coordination, and robust operation of data-center power infrastructure.">
+  <meta name="description" content="Academic website of Irfan Ullah, Ph.D. researcher in power systems, grid resilience, black-start restoration, maximal load delivery, DER coordination, and robust operation of data-center power infrastructure.">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <header class="masthead">
-    <div class="container header-row">
-      <a class="brand" href="index.html">Irfan Ullah</a>
-      
-<nav class="top-nav" aria-label="Main navigation">
+  <header class="topbar">
+    <div class="page-wrap">
+      <nav class="nav" aria-label="Primary navigation">
   <a href="index.html">Home</a>
   <a href="research.html">Research</a>
   <a href="publications.html">Publications</a>
@@ -20,99 +18,100 @@
   <a href="cv.html">CV</a>
   <a href="service.html">Service</a>
 </nav>
-
     </div>
   </header>
-  <div class="container layout">
-    
-<aside class="sidebar">
-  <img class="avatar" src="assets/profile.svg" alt="Profile placeholder for Irfan Ullah">
-  <h2>Irfan Ullah</h2>
-  <p class="sidebar-title">Ph.D. Researcher in Electrical Engineering</p>
-  <p>Power and Energy Systems<br>Texas A&amp;M University</p>
-  <p class="small">Grid resilience, distribution restoration, robust optimization, DER coordination, and data-center power infrastructure.</p>
-  <div class="side-links">
-    <a href="mailto:irfan@tamu.edu">irfan@tamu.edu</a>
-    <a href="https://www.linkedin.com/in/irfan2012">LinkedIn</a>
-    <a href="https://github.com/engrirfan-stack">GitHub</a>
-    <a href="cv.html">CV</a>
-  </div>
+
+  <div class="page-wrap site-grid">
+    <aside class="sidebar">
+  <img class="profile-photo" src="assets/profile.svg" alt="Profile placeholder for Irfan Ullah">
+  <h1>Irfan Ullah</h1>
+  <p class="name-alt">Power Systems Researcher</p>
+  <p class="side-line">Ph.D. Researcher<br>Electrical Engineering<br>Texas A&amp;M University</p>
+  <ul class="contact-links">
+    <li><a href="mailto:irfan@tamu.edu">irfan@tamu.edu</a></li>
+    <li><a href="https://www.linkedin.com/in/irfan2012">LinkedIn</a></li>
+    <li><a href="https://github.com/engrirfan-stack">GitHub</a></li>
+    <li><a href="cv.html">CV</a></li>
+  </ul>
+  <p class="note">Bryan/College Station, TX<br>Open to relocation</p>
 </aside>
 
     <main class="content">
       
-<section class="hero">
-  <p class="eyebrow">Power Systems | Optimization | Grid Resilience</p>
-  <h1>Resilient operation and restoration of active electric power distribution systems</h1>
-  <p class="lead">
-    I develop optimization-driven methodologies for black-start restoration, maximal load delivery, distributed energy resource coordination, and uncertainty-aware operation of active distribution systems.
-  </p>
-  <div class="button-row">
-    <a class="button" href="research.html">Research Portfolio</a>
-    <a class="button secondary" href="publications.html">Publications</a>
-    <a class="button secondary" href="cv.html">CV</a>
-  </div>
-</section>
-
-<section>
-  <h2>Research Profile</h2>
+<section class="intro">
   <p>
-    I am a Ph.D. researcher in Electrical Engineering at Texas A&amp;M University. My work focuses on resilient power distribution systems, especially restoration and reconfiguration after widespread outages. I formulate mixed-integer and robust optimization models that coordinate grid-forming resources, photovoltaic generation, battery energy storage systems, diesel generation, switching devices, and critical loads.
+    I am a Ph.D. researcher in Electrical Engineering at <strong>Texas A&amp;M University</strong>, working in power and energy systems. My research focuses on resilient operation of electric power distribution systems, with emphasis on <strong>black-start restoration</strong>, <strong>maximal load delivery</strong>, <strong>microgrid coordination</strong>, <strong>distributed energy resources</strong>, and <strong>uncertainty-aware optimization</strong>.
   </p>
   <p>
-    My computational work integrates OpenDSS, Julia, JuMP, PowerModelsDistribution.jl, PowerModelsONM.jl, Python, Gurobi, and HiGHS for physics-aware modeling, optimization, simulation, and post-processing of large-scale unbalanced distribution systems.
+    My work integrates mathematical optimization, physics-based distribution-system modeling, and large-scale simulation. I develop computational workflows using <strong>OpenDSS</strong>, <strong>Julia/JuMP</strong>, <strong>PowerModelsDistribution.jl</strong>, <strong>PowerModelsONM.jl</strong>, <strong>Python</strong>, and mixed-integer optimization solvers to support restoration decision-making under extreme events, uncertain load behavior, renewable variability, and DER availability constraints.
+  </p>
+  <p>
+    My emerging research direction extends these restoration and robust-operation methods to <strong>data-center power infrastructure</strong>, with focus on reliable operation of high-density electric loads under contingency, DER uncertainty, backup generation constraints, and resilience requirements.
   </p>
 </section>
 
 <section>
-  <h2>Current Research Themes</h2>
-  <div class="card-grid">
-    <article class="card">
-      <h3>Black-start restoration</h3>
-      <p>Optimization-based restoration of active distribution networks with grid-forming DERs, radial topology constraints, switching decisions, and sequential load pickup.</p>
-    </article>
-    <article class="card">
-      <h3>Robust maximal load delivery</h3>
-      <p>Two-stage robust optimization for restoring maximum feasible load under uncertain real and reactive demand conditions in large-scale distribution systems.</p>
-    </article>
-    <article class="card">
-      <h3>DER and microgrid coordination</h3>
-      <p>Coordinated operation of PV, BESS, diesel generation, and inverter-based resources for resilient post-outage distribution system operation.</p>
-    </article>
-    <article class="card">
-      <h3>Robust operation of data-center power infrastructure</h3>
-      <p>Emerging research direction on optimization and resilience methods for data-center electric infrastructure, including reliable operation under load growth, DER variability, and contingency conditions.</p>
-    </article>
-  </div>
-</section>
-
-<section>
-  <h2>Selected Projects</h2>
-  <ul class="feature-list">
-    <li><strong>Uncertainty-aware black-start restoration:</strong> restoration models with DER availability, cold load pickup, voltage and thermal feasibility, topology control, and uncertain load behavior.</li>
-    <li><strong>Two-stage robust MLD:</strong> master-subproblem restoration framework with uncertainty sets, feasibility evaluation, and robust load delivery decisions.</li>
-    <li><strong>Modified Iowa 240-node studies:</strong> large-scale unbalanced feeder studies with PV, BESS, diesel generation, switchable sections, and 24-step restoration behavior.</li>
-    <li><strong>Scenario-based resilience assessment:</strong> PV reduction, DER outage, permanent fault, and combined adverse operating scenarios for restoration-performance evaluation.</li>
+  <h2>Latest News</h2>
+  <ul class="news-list">
+    <li><span>Jul. 2026</span> Paper accepted for IEEE PES General Meeting: two-stage robust optimization for maximal load delivery in a large-scale distribution system.</li>
+    <li><span>May 2026</span> Poster at IEEE PES Transmission &amp; Distribution Conference on robust black-start restoration under demand uncertainty.</li>
+    <li><span>Feb. 2026</span> Paper at IEEE Texas Power and Energy Conference on sequential black-start restoration using PowerModelsDistribution and PowerModelsONM.</li>
+    <li><span>Summer 2025</span> Continued power systems research internship at Los Alamos National Laboratory.</li>
+    <li><span>Jan. 2025</span> Presented black-start restoration work at Grid Science Winter School and Conference.</li>
   </ul>
 </section>
 
 <section>
-  <h2>Research Output Snapshot</h2>
-  <div class="stats">
-    <div><span>9</span><p>Peer-reviewed publications listed in CV</p></div>
-    <div><span>5</span><p>Poster presentations listed in CV</p></div>
-    <div><span>2024-2025</span><p>LANL summer research internships</p></div>
-    <div><span>2026</span><p>PESGM robust MLD paper accepted</p></div>
+  <h2>Experience</h2>
+  <div class="timeline">
+    <div class="timeline-row">
+      <div class="time">Aug. 2022 - Present</div>
+      <div>
+        <strong>Texas A&amp;M University</strong><br>
+        Ph.D. Researcher, Graduate Research Assistant, Power and Energy Systems<br>
+        <span class="muted">College Station, TX</span>
+      </div>
+    </div>
+    <div class="timeline-row">
+      <div class="time">Summers 2024 and 2025</div>
+      <div>
+        <strong>Los Alamos National Laboratory</strong><br>
+        Summer Research Intern, Power Systems<br>
+        <span class="muted">Los Alamos, NM</span>
+      </div>
+    </div>
+    <div class="timeline-row">
+      <div class="time">Teaching</div>
+      <div>
+        <strong>Texas A&amp;M University</strong><br>
+        Teaching Assistant, ECEN 325 Electronics
+      </div>
+    </div>
   </div>
+</section>
+
+<section>
+  <h2>Research Areas</h2>
+  <ul class="compact-list">
+    <li>Black-start restoration of active distribution systems with DERs and grid-forming resources.</li>
+    <li>Two-stage robust optimization for maximal load delivery under uncertain real and reactive loads.</li>
+    <li>Microgrid networking, PV/BESS/diesel coordination, and storage state-of-charge constrained restoration.</li>
+    <li>Scenario-based resilience analysis with PV reduction, DER unavailability, permanent faults, and combined contingencies.</li>
+    <li>Robust operation and restoration of critical electric infrastructure, including future data-center power systems.</li>
+  </ul>
 </section>
 
     </main>
   </div>
+
   <footer class="footer">
-    <div class="container">
+    <div class="page-wrap">
       <p>&copy; <span id="year"></span> Irfan Ullah. Last updated June 2026.</p>
     </div>
   </footer>
-  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

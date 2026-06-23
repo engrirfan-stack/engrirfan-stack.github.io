@@ -1,7 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
-<title id="title">Irfan Ullah profile placeholder</title>
-<desc id="desc">Neutral circular profile placeholder with initials IU.</desc>
-<rect width="500" height="500" fill="#f6f8fa"/>
-<circle cx="250" cy="250" r="210" fill="#ffffff" stroke="#d8dee4" stroke-width="8"/>
-<text x="250" y="285" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="700" text-anchor="middle" fill="#1f2933">IU</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#102a43"/>
+      <stop offset="45%" stop-color="#0b5fa5"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1" y1="1" y2="0">
+      <stop offset="0%" stop-color="#f6ad55"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="#edf6ff"/>
+  <rect x="30" y="30" width="540" height="540" rx="28" fill="url(#g)"/>
+  <circle cx="300" cy="226" r="92" fill="#ffffff" opacity="0.95"/>
+  <path d="M128 536c26-118 104-178 172-178s146 60 172 178" fill="#ffffff" opacity="0.95"/>
+  <circle cx="455" cy="120" r="42" fill="#f6ad55"/>
+  <circle cx="112" cy="435" r="30" fill="#14b8a6" opacity="0.8"/>
+  <text x="300" y="565" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#ffffff">Replace with profile photo</text>
 </svg>

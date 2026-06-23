@@ -1,10 +1,18 @@
-# engrirfan-stack.github.io
+# Irfan Ullah Colorful Academic Website
 
-Academic website for Irfan Ullah.
+Colorful Bailey-style static academic website for GitHub Pages.
 
-## Upload instructions
+## Upload to GitHub
 
-Upload these files and folders to the root of the GitHub Pages repository:
+Upload all files and folders in this package to the root of:
+
+`engrirfan-stack/engrirfan-stack.github.io`
+
+Commit message:
+
+`Make website design colorful`
+
+## Files
 
 - `index.html`
 - `research.html`
@@ -12,22 +20,20 @@ Upload these files and folders to the root of the GitHub Pages repository:
 - `tools.html`
 - `cv.html`
 - `service.html`
-- `assets/`
-- `files/`
-- `README.md`
+- `assets/style.css`
+- `assets/profile.svg`
+- `files/README.md`
 
-Commit message:
+## Profile photo
 
-`Upgrade academic website layout`
+Replace `assets/profile.svg` with a professional headshot if desired.
 
-The site will deploy at:
+Recommended option: upload `assets/profile.jpg` and replace `assets/profile.svg` with `assets/profile.jpg` in the HTML files.
 
-`https://engrirfan-stack.github.io/`
+## Public CV PDF
 
-## Optional CV PDF
-
-To add a downloadable CV, place a public version of the PDF at:
+To add a downloadable CV, upload a public CV PDF to:
 
 `files/Irfan_Ullah_CV.pdf`
 
-Do not publish private phone, address, passport, visa, sponsor, or confidential project documents.
+Do not publish phone number, home address, passport, visa, sponsor, HEC, or confidential project information.

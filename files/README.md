@@ -1,5 +1,5 @@
-Place a public CV PDF here with the exact filename:
+Optional public CV location:
 
-Irfan_Ullah_CV.pdf
+files/Irfan_Ullah_CV.pdf
 
-Recommended: use a public CV version without phone number, home address, passport, visa, sponsor, or confidential project details.
+Use a public CV version with no private phone, home address, passport, visa, sponsor, or confidential project details.
