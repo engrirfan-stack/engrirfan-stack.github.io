@@ -40,48 +40,67 @@
       
 <section class="intro">
   <p>
-    I am a Ph.D. researcher in Electrical Engineering at <strong>Texas A&amp;M University</strong>, working on <strong>uncertainty-aware and resilient grid operation</strong>. My research develops scalable, optimization-driven, and physics-based computational methods for modern electric power distribution systems operating under uncertain load, contingency, and distributed energy resource conditions.
+    I am a Ph.D. researcher in Electrical Engineering at <strong>Texas A&amp;M University</strong>, working on <strong>uncertainty-aware and resilient grid operation</strong>. My research develops optimization-driven and physics-based methods for restoring and operating active distribution systems under uncertain load, DER availability, renewable variability, and contingency conditions.
   </p>
   <p>
-    My work focuses on <strong>black-start restoration</strong>, <strong>maximal load delivery</strong>, <strong>topology reconfiguration</strong>, <strong>restoration sequencing</strong>, and <strong>distributed energy resource coordination</strong> in active distribution systems. I design mathematical optimization models and simulation workflows that coordinate inverter-based resources, photovoltaic generation, battery energy storage systems, diesel generation, controllable switching devices, and critical loads while enforcing voltage, thermal, topology, and operational feasibility constraints.
+    My work focuses on <strong>black-start restoration</strong>, <strong>maximal load delivery</strong>, <strong>topology reconfiguration</strong>, <strong>restoration sequencing</strong>, and <strong>DER coordination</strong>. I also build an <strong>automated restoration analysis framework</strong> that uses <strong>Python</strong> to preprocess system models, configure scenarios, run <strong>Julia/JuMP</strong> optimization with <strong>PowerModelsONM.jl</strong> and <strong>PowerModelsDistribution.jl</strong>, update post-restoration system states, and generate Excel summaries, DER dispatch plots, storage state-of-charge profiles, and <strong>PowerPlots</strong> network visualizations.
   </p>
   <p>
-    A major part of my work is the development of an <strong>automated restoration analysis framework</strong> that connects power-system modeling, optimization, simulation, and visualization. This framework uses <strong>Python automation</strong> to extract and preprocess distribution-system models, configure restoration scenarios, execute <strong>Julia/JuMP</strong>-based restoration optimization files, run restoration studies using <strong>PowerModelsONM.jl</strong> and <strong>PowerModelsDistribution.jl</strong>, collect optimization results, update the post-restoration system state, and generate technical outputs including Excel-based result summaries, restoration timelines, DER dispatch plots, storage state-of-charge profiles, and network visualizations using <strong>PowerPlots</strong>.
-  </p>
-  <p>
-    This computational workflow integrates <strong>OpenDSS</strong>, <strong>Python</strong>, <strong>Julia/JuMP</strong>, <strong>PowerModelsDistribution.jl</strong>, <strong>PowerModelsONM.jl</strong>, mixed-integer optimization solvers, and post-processing tools to support restoration decision-making under extreme events, uncertain demand, renewable variability, and DER availability constraints. The workflow has been developed through my Texas A&amp;M research and collaborative work with <strong>Los Alamos National Laboratory</strong> on resilient electric power infrastructure.
-  </p>
-  <p>
-    I am also extending this research direction toward <strong>resilient and adaptive operation of data-center and critical power infrastructure with distributed energy resources</strong>. This planned work applies restoration, optimization, forecasting, automation, and physics-based simulation methods to converter-interfaced, high-density electric infrastructure, including data centers, where reliability, fast recovery, and coordinated DER operation are essential.
+    I am extending this research toward <strong>resilient and adaptive operation of data-center and critical power infrastructure</strong>, applying restoration, optimization, forecasting, automation, and physics-based simulation methods to converter-interfaced, high-density electric infrastructure.
   </p>
 </section>
 
 <section>
   <h2>Latest News</h2>
   <ul class="news-list">
-    <li><span>Jul. 2026</span> Paper accepted for IEEE PES General Meeting: <em>Two-Stage Robust Optimization for Maximal Load Delivery in a Large-Scale Distribution System</em>.</li>
-
-    <li><span>May 2026</span> Poster presentation at IEEE PES Transmission &amp; Distribution Conference: <em>Robust Black Start Restoration (RBSR) of Distribution Systems with DER Integration Under Demand Uncertainty</em>.</li>
-
-    <li><span>2026</span> Working on proposed TPEC data-center research papers on SST-based data-center architecture and machine-learning-based battery health monitoring for SST-driven data-center energy storage systems.</li>
-
-    <li><span>Feb. 2026</span> Paper at IEEE Texas Power and Energy Conference: <em>Studying a Sequential Black Start Restoration Method Using PowerModelsDistribution and PowerModelsONM</em>.</li>
-
-    <li><span>2025</span> Paper at North American Power Symposium: <em>Studying a Sequential Black Start Restoration Method Using PowerModelsONM.jl</em>.</li>
-
-    <li><span>Jul. 2025</span> Poster presentation at IEEE Power and Energy Society General Meeting on optimization approaches in PowerModelsONM for maximal load delivery under varying load and PV behavior.</li>
-
-    <li><span>Summer 2025</span> Continued power systems research internship at Los Alamos National Laboratory.</li>
-
-    <li><span>Jan. 2025</span> Presented black-start restoration work at Grid Science Winter School and Conference.</li>
-
-    <li><span>2025</span> Paper at IEEE Texas Power and Energy Conference: <em>Studying Power Loss Minimization in Active Distribution Systems Using PowerModelsDistribution</em>.</li>
-
-    <li><span>2024</span> Paper at North American Power Symposium: <em>Sequential Black Start Restoration in Active Distribution Networks and Microgrids Using the PowerModelsDistribution Package</em>.</li>
-
-    <li><span>Jul. 2024</span> Poster presentation at IEEE Power and Energy Society General Meeting on black-start restoration for power distribution systems using PowerModelsDistribution.</li>
-
-    <li><span>Mar. 2024</span> Poster presentation at the TAMU/LANL Poster Exhibit and Reception: <em>Distribution System Resilience in the Face of Extreme Weather Events</em>.</li>
+    <li>
+      <span>Jul. 2026</span>
+      <p>Paper accepted for IEEE PES General Meeting: <em>Two-Stage Robust Optimization for Maximal Load Delivery in a Large-Scale Distribution System</em>.</p>
+    </li>
+    <li>
+      <span>May 2026</span>
+      <p>Poster presentation at IEEE PES Transmission &amp; Distribution Conference: <em>Robust Black Start Restoration (RBSR) of Distribution Systems with DER Integration Under Demand Uncertainty</em>.</p>
+    </li>
+    <li>
+      <span>2026</span>
+      <p>Working on proposed TPEC data-center research papers on SST-based data-center architecture and machine-learning-based battery health monitoring for SST-driven data-center energy storage systems.</p>
+    </li>
+    <li>
+      <span>Feb. 2026</span>
+      <p>Paper at IEEE Texas Power and Energy Conference: <em>Studying a Sequential Black Start Restoration Method Using PowerModelsDistribution and PowerModelsONM</em>.</p>
+    </li>
+    <li>
+      <span>2025</span>
+      <p>Paper at North American Power Symposium: <em>Studying a Sequential Black Start Restoration Method Using PowerModelsONM.jl</em>.</p>
+    </li>
+    <li>
+      <span>Jul. 2025</span>
+      <p>Poster presentation at IEEE Power and Energy Society General Meeting on optimization approaches in PowerModelsONM for maximal load delivery under varying load and PV behavior.</p>
+    </li>
+    <li>
+      <span>Summer 2025</span>
+      <p>Continued power systems research internship at Los Alamos National Laboratory.</p>
+    </li>
+    <li>
+      <span>Jan. 2025</span>
+      <p>Presented black-start restoration work at Grid Science Winter School and Conference.</p>
+    </li>
+    <li>
+      <span>2025</span>
+      <p>Paper at IEEE Texas Power and Energy Conference: <em>Studying Power Loss Minimization in Active Distribution Systems Using PowerModelsDistribution</em>.</p>
+    </li>
+    <li>
+      <span>2024</span>
+      <p>Paper at North American Power Symposium: <em>Sequential Black Start Restoration in Active Distribution Networks and Microgrids Using the PowerModelsDistribution Package</em>.</p>
+    </li>
+    <li>
+      <span>Jul. 2024</span>
+      <p>Poster presentation at IEEE Power and Energy Society General Meeting on black-start restoration for power distribution systems using PowerModelsDistribution.</p>
+    </li>
+    <li>
+      <span>Mar. 2024</span>
+      <p>Poster presentation at the TAMU/LANL Poster Exhibit and Reception: <em>Distribution System Resilience in the Face of Extreme Weather Events</em>.</p>
+    </li>
   </ul>
 </section>
 

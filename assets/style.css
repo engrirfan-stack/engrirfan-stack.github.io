@@ -239,11 +239,11 @@ strong {
 
 .news-list li {
   display: grid;
-  grid-template-columns: 125px minmax(0, 1fr);
-  gap: 14px;
+  grid-template-columns: 115px minmax(0, 1fr);
+  gap: 16px;
   align-items: start;
-  margin-bottom: 10px;
-  padding: 10px 0;
+  margin-bottom: 0;
+  padding: 11px 0;
   border-bottom: 1px solid var(--line);
   background: transparent;
   border-left: 0;

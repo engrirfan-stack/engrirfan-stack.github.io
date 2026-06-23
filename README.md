@@ -1,4 +1,4 @@
-# Latest News layout fix
+# Homepage intro and latest news fix
 
 Upload these two files to the same paths in your GitHub Pages repository:
 
@@ -7,4 +7,6 @@ Upload these two files to the same paths in your GitHub Pages repository:
 
 Commit message:
 
-Fix latest news layout
+Brief intro and fix latest news layout
+
+This version shortens the intro and fixes Latest News so each item displays as a date plus one continuous text line.
