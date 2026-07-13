@@ -20,8 +20,8 @@ const slides = [
 { src: "assets/slide-3.jpg", caption: "Electrical and electronics engineering laboratory engagement" },
 { src: "assets/slide-4.jpg", caption: "Research group mentoring and project discussion" },
 { src: "assets/slide-5.jpg", caption: "LANL mentors Dr. Russel Bent and Dr. Harsha Nagranjan at Grid Science" },
-  { src: "assets/slide-6.jpg", caption: "Power and Energy Group at Texas A&M University" },
-  { src: "assets/slide-7.jpg", caption: "PSAL Research Group with Dr. Karen L. Butler-Purry" },
+  { src: "assets/slide-6.png", caption: "Power and Energy Group at Texas A&M University" },
+  { src: "assets/slide-7.png", caption: "PSAL Research Group with Dr. Karen L. Butler-Purry" },
   { src: "assets/slide-8.jpg", caption: "Presenting Texas A&M and LANL research work" },
   { src: "assets/slide-9.jpg", caption: "With the Texas A&M mascot" }
 ];
