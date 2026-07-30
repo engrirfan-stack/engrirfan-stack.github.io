@@ -51,10 +51,23 @@
 </section>
 
 <section>
-  <h2>BSR Desktop Application</h2>
+  <h2>Power-System Analysis and BSR Desktop Application</h2>
   <p>
-    Developed a Python-based desktop application for <strong>black-start restoration studies</strong> that integrates Julia/JuMP optimization models, PowerModelsONM.jl and PowerModelsDistribution.jl workflows, OpenDSS validation, Excel-based data handling, operating-day selection, contingency-scenario configuration, and automated visualization. The application allows users to execute restoration simulations, validate optimized solutions, update post-restoration system states, and generate restoration plots through a unified interface.
+    Developed a Python-based desktop application for power-system analysis and black-start restoration studies. The platform supports <strong>power flow</strong>, <strong>optimal power flow</strong>, <strong>maximal load delivery</strong>, <strong>black-start restoration</strong>, uncertainty studies using smart-meter data, and experimental AI-based restoration methods. It integrates Julia/JuMP optimization models, PowerModelsONM.jl and PowerModelsDistribution.jl workflows, OpenDSS validation, Excel-based data handling, operating-day selection, contingency-scenario configuration, and automated visualization. The application also includes a visual system builder, automated validation and reporting, and <strong>GridMate</strong>, an assistant for diagnosing model and solver issues and interpreting restoration results.
   </p>
+</section>
+
+<section id="featured-media" class="media-showcase">
+  <div class="media-copy">
+    <h2>Research and Professional Highlights</h2>
+    <p>
+      Selected moments from IEEE PES events, power systems research, laboratory teaching, technical mentoring, and collaboration with researchers in grid resilience and optimization.
+    </p>
+  </div>
+  <div class="media-frame">
+    <img id="media-slide" src="assets/slide-1.jpg" alt="Research and professional highlight">
+    <div class="media-caption" id="media-caption">IEEE PES GM with the founder of Schweitzer Engineering Laboratories</div>
+  </div>
 </section>
 
 <section>
@@ -68,29 +81,18 @@
 <section>
   <h2>Latest News</h2>
   <ul class="news-list">
-    <li><span>Jul. 2026</span> Paper accepted for IEEE PES General Meeting: <em>Two-Stage Robust Optimization for Maximal Load Delivery in a Large-Scale Distribution System</em>.</li>
-
-    <li><span>May 2026</span> Poster presentation at IEEE PES Transmission &amp; Distribution Conference: <em>Robust Black Start Restoration (RBSR) of Distribution Systems with DER Integration Under Demand Uncertainty</em>.</li>
-
-    <li><span>2026</span> Working on a data-center power infrastructure project involving SST-based architecture and machine-learning-based battery health monitoring for energy storage systems.</li>
-
-    <li><span>Feb. 2026</span> Paper at IEEE Texas Power and Energy Conference: <em>Studying a Sequential Black Start Restoration Method Using PowerModelsDistribution and PowerModelsONM</em>.</li>
-
-    <li><span>2025</span> Paper at North American Power Symposium: <em>Studying a Sequential Black Start Restoration Method Using PowerModelsONM.jl</em>.</li>
-
-    <li><span>Jul. 2025</span> Poster presentation at IEEE Power and Energy Society General Meeting on optimization approaches in PowerModelsONM for maximal load delivery under varying load and PV behavior.</li>
-
-    <li><span>Summer 2025</span> Continued power systems research internship at Los Alamos National Laboratory.</li>
-
-    <li><span>Jan. 2025</span> Presented black-start restoration work at Grid Science Winter School and Conference.</li>
-
-    <li><span>2025</span> Paper at IEEE Texas Power and Energy Conference: <em>Studying Power Loss Minimization in Active Distribution Systems Using PowerModelsDistribution</em>.</li>
-
-    <li><span>2024</span> Paper at North American Power Symposium: <em>Sequential Black Start Restoration in Active Distribution Networks and Microgrids Using the PowerModelsDistribution Package</em>.</li>
-
-    <li><span>Jul. 2024</span> Poster presentation at IEEE Power and Energy Society General Meeting on black-start restoration for power distribution systems using PowerModelsDistribution.</li>
-
-    <li><span>Mar. 2024</span> Poster presentation at the TAMU/LANL Poster Exhibit and Reception: <em>Distribution System Resilience in the Face of Extreme Weather Events</em>.</li>
+    <li><span>Jul. 2026</span><p>IEEE PESGM paper accepted: two-stage robust maximal load delivery on a large-scale distribution system.</p></li>
+    <li><span>May 2026</span><p>IEEE PES T&amp;D poster presentation on robust black-start restoration under demand uncertainty.</p></li>
+    <li><span>2026</span><p>Working on a data-center power infrastructure project involving SST-based architecture and machine-learning-based battery health monitoring.</p></li>
+    <li><span>Feb. 2026</span><p>IEEE TPEC paper on sequential black-start restoration using PowerModelsDistribution and PowerModelsONM.</p></li>
+    <li><span>2025</span><p>NAPS paper on sequential black-start restoration using PowerModelsONM.jl.</p></li>
+    <li><span>Jul. 2025</span><p>IEEE PESGM poster on PowerModelsONM-based maximal load delivery under load and PV variability.</p></li>
+    <li><span>Summer 2025</span><p>Continued power systems research internship at Los Alamos National Laboratory.</p></li>
+    <li><span>Jan. 2025</span><p>Presented black-start restoration work at Grid Science Winter School and Conference.</p></li>
+    <li><span>2025</span><p>IEEE TPEC paper on power-loss minimization in active distribution systems using PowerModelsDistribution.</p></li>
+    <li><span>2024</span><p>NAPS paper on sequential black-start restoration in active distribution networks and microgrids.</p></li>
+    <li><span>Jul. 2024</span><p>IEEE PESGM poster on black-start restoration for power distribution systems.</p></li>
+    <li><span>Mar. 2024</span><p>TAMU/LANL poster presentation on distribution-system resilience under extreme weather events.</p></li>
   </ul>
 </section>
 
@@ -147,5 +149,6 @@
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+  <script src="assets/media-slider.js"></script>
 </body>
 </html>

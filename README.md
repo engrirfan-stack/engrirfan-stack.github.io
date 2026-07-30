@@ -1,22 +1,12 @@
-# Full GitHub Pages CV update
+# Homepage layout, app, and slider fix
 
-Upload these files/folders to the root of your GitHub Pages repository:
+Upload these files:
 
 - index.html
-- research.html
-- publications.html
-- tools.html
-- cv.html
-- service.html
-- assets/
-- files/Irfan_Ullah_CV.pdf
+- assets/style.css
+- assets/media-slider.js
+
+This update restores the homepage highlights slider, makes Latest News compact, and expands the desktop application section to include PF, OPF, MLD, BSR, uncertainty studies, smart-meter data, AI restoration, visual system builder, validation/reporting, and GridMate.
 
 Commit message:
-Update website with full CV and power electronics content
-
-This update adds:
-- Full CV content from the updated CV PDF.
-- Public downloadable CV PDF.
-- BSR desktop application section.
-- Solid-state transformer, grid-forming/grid-following converter, UPQC, and power-quality content.
-- Data-center power infrastructure and SST-based energy routing content.
+Fix homepage layout and app description

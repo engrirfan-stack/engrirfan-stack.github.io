@@ -1,6 +1,5 @@
 /*
-  Slide media showcase.
-  Upload images to the assets folder using the exact filenames below.
+  Homepage rotating media showcase.
 */
 
 (function () {
