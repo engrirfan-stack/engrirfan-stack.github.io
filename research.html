@@ -4,26 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Research | Irfan Ullah</title>
-  <meta name="description" content="Academic website of Irfan Ullah, Ph.D. researcher in power systems, grid resilience, black-start restoration, maximal load delivery, DER coordination, and robust operation of data-center power infrastructure.">
+  <meta name="description" content="Academic website of Irfan Ullah, power systems researcher in grid resilience, black-start restoration, maximal load delivery, DER coordination, microgrids, power electronics, and data-center power infrastructure.">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+  <canvas id="restoration-bg" aria-hidden="true"></canvas>
   <header class="topbar">
     <div class="page-wrap">
       <nav class="nav" aria-label="Primary navigation">
-  <a href="index.html">Home</a>
-  <a href="research.html">Research</a>
-  <a href="publications.html">Publications</a>
-  <a href="tools.html">Tools and Skills</a>
-  <a href="cv.html">CV</a>
-  <a href="service.html">Service</a>
-</nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="tools.html">Tools and Skills</a>
+        <a href="cv.html">CV</a>
+        <a href="service.html">Service</a>
+      </nav>
     </div>
   </header>
 
   <div class="page-wrap site-grid">
     <aside class="sidebar">
-  <img class="profile-photo" src="assets/Irfan_profile.png" alt="Irfan Ullah">
+ <img class="profile-photo" src="assets/Irfan_profile.png" alt="Irfan Ullah">
   <h1>Irfan Ullah</h1>
   <p class="name-alt">Power Systems Researcher</p>
   <p class="side-line">Ph.D. Researcher<br>Electrical Engineering<br>Texas A&amp;M University</p>
@@ -31,70 +32,69 @@
     <li><a href="mailto:irfan@tamu.edu">irfan@tamu.edu</a></li>
     <li><a href="https://www.linkedin.com/in/irfan2012">LinkedIn</a></li>
     <li><a href="https://github.com/engrirfan-stack">GitHub</a></li>
-    <li><a href="cv.html">CV</a></li>
+    <li><a href="files/Irfan_Ullah_CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a></li>
   </ul>
   <p class="note">Bryan/College Station, TX<br>Open to relocation</p>
 </aside>
-
     <main class="content">
       
 <h1>Research</h1>
 <p>
-  My research develops scalable optimization and simulation methods for resilient electric power distribution systems. The central question is how to restore the maximum feasible load after an outage while satisfying physics, topology, DER, storage, and uncertainty constraints.
+  My research centers on uncertainty-aware and resilient grid operation, with emphasis on optimization-driven restoration, physics-based simulation, DER and BESS coordination, converter-based resources, and resilient operation of critical power infrastructure.
 </p>
 
-<h2>Black-Start Restoration</h2>
-<p>
-  I develop sequential black-start restoration models for active distribution systems. These models coordinate controllable switches, distributed energy resources, grid-forming resources, and load pickup decisions while enforcing voltage, thermal, radiality, and resource constraints.
-</p>
-<ul>
-  <li>Mixed-integer restoration formulations for distribution feeders and microgrids.</li>
-  <li>Grid-forming inverter and DER coordination constraints.</li>
-  <li>Cold load pickup and time-dependent load behavior.</li>
-  <li>Restoration sequence feasibility and operational constraint validation.</li>
-</ul>
+<section>
+  <h2>Black-Start Restoration and Maximal Load Delivery</h2>
+  <p>
+    I develop mixed-integer and robust optimization methods for distribution-system restoration, including full-horizon black-start restoration, maximal load delivery, switching and radiality decisions, grid-forming island requirements, voltage and thermal limits, source capability, and storage energy-reserve constraints.
+  </p>
+</section>
 
-<h2>Two-Stage Robust Maximal Load Delivery</h2>
-<p>
-  I study robust maximal load delivery for large-scale distribution systems under uncertain load conditions. The framework separates restoration and dispatch decisions from worst-case feasibility evaluation under uncertain demand.
-</p>
-<ul>
-  <li>Master-subproblem decomposition for restoration planning.</li>
-  <li>Uncertainty sets for active and reactive load variation.</li>
-  <li>Worst-case feasibility checks and feasibility-cut generation.</li>
-  <li>Large-scale studies on modified Iowa 240-node systems with PV, BESS, diesel generation, and switchable sections.</li>
-</ul>
+<section>
+  <h2>Uncertainty-Aware and Rolling-Horizon Restoration</h2>
+  <p>
+    My work studies load uncertainty, scenario-indexed validation, rolling-horizon prediction and control windows, recursive backtracking, and storage-capacity feasibility under changing operating conditions. These methods are designed to analyze how forecast errors and early restoration decisions affect downstream feasibility.
+  </p>
+</section>
 
-<h2>DER, Storage, and Microgrid Coordination</h2>
-<p>
-  My work studies DER-supported restoration using photovoltaic generation, battery energy storage systems, diesel generators, and inverter-based resources.
-</p>
-<ul>
-  <li>Battery charging/discharging and state-of-charge constrained dispatch.</li>
-  <li>PV availability and renewable variability under adverse weather conditions.</li>
-  <li>Microgrid networking for critical-load restoration.</li>
-  <li>Grid-forming and grid-following inverter operation in restoration studies.</li>
-</ul>
+<section>
+  <h2>Automation Framework and BSR Desktop Application</h2>
+  <p>
+    I develop Python automation workflows and a desktop application for black-start restoration studies. The workflow extracts and preprocesses OpenDSS-based distribution-system models, selects operating days and contingency cases, runs Julia/JuMP optimization using PowerModelsONM.jl and PowerModelsDistribution.jl, validates results in OpenDSS, updates post-restoration system states, and generates Excel summaries, DER dispatch plots, storage state-of-charge profiles, and PowerPlots network visualizations.
+  </p>
+</section>
 
-<h2>Robust Operation of Data-Center Power Infrastructure</h2>
-<p>
-  This is a developing research direction. I am extending my restoration, robust optimization, and DER-coordination background toward data-center electric infrastructure. The focus is resilient operation of high-density electric loads under uncertainty, contingency, backup generation limits, storage constraints, renewable variability, and utility-grid operating limits.
-</p>
+<section>
+  <h2>GridResilience Studio</h2>
+  <p>
+    GridResilience Studio is my research software platform for distribution-system analysis, optimization, restoration, scenario generation, validation, visualization, and diagnostics. It integrates OpenDSS with Python, Julia/JuMP, PowerModelsONM.jl, PowerModelsDistribution.jl, Gurobi, Ipopt, PyQt, and post-processing/reporting tools.
+  </p>
+</section>
 
-<h2>Simulation and Validation Workflows</h2>
-<p>
-  I build computational workflows that connect OpenDSS feeder models, Julia/JuMP optimization, PowerModelsDistribution.jl, PowerModelsONM.jl, Python automation, and solver-based analysis.
-</p>
+<section>
+  <h2>Power Electronics, SST, and Power Quality</h2>
+  <p>
+    My converter-based power systems work includes MATLAB/Simulink modeling of solid-state transformer and UPQC architectures, renewable integration, multi-port converter operation, grid-forming and grid-following converter concepts, DC-link behavior, voltage sag/swell mitigation, harmonic reduction, and fault-condition performance.
+  </p>
+</section>
+
+<section>
+  <h2>Data-Center Power and Critical Infrastructure</h2>
+  <p>
+    I am extending restoration, optimization, forecasting, automation, and physics-based simulation methods toward data-center and critical power infrastructure. This direction includes SST-based data-center architecture, resilient power and energy routing, BESS coordination, battery health monitoring, bidirectional AC/DC power flow, and converter-interfaced high-density electric systems.
+  </p>
+</section>
 
     </main>
   </div>
 
   <footer class="footer">
     <div class="page-wrap">
-      <p>&copy; <span id="year"></span> Irfan Ullah. Last updated June 2026.</p>
+      <p>&copy; <span id="year"></span> Irfan Ullah. Last updated July 2026.</p>
     </div>
   </footer>
 
+  <script src="assets/restoration-bg.js"></script>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>

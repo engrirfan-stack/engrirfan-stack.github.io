@@ -4,20 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Service | Irfan Ullah</title>
-  <meta name="description" content="Academic website of Irfan Ullah, Ph.D. researcher in power systems, grid resilience, black-start restoration, maximal load delivery, DER coordination, and robust operation of data-center power infrastructure.">
+  <meta name="description" content="Academic website of Irfan Ullah, power systems researcher in grid resilience, black-start restoration, maximal load delivery, DER coordination, microgrids, power electronics, and data-center power infrastructure.">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+  <canvas id="restoration-bg" aria-hidden="true"></canvas>
   <header class="topbar">
     <div class="page-wrap">
       <nav class="nav" aria-label="Primary navigation">
-  <a href="index.html">Home</a>
-  <a href="research.html">Research</a>
-  <a href="publications.html">Publications</a>
-  <a href="tools.html">Tools and Skills</a>
-  <a href="cv.html">CV</a>
-  <a href="service.html">Service</a>
-</nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="tools.html">Tools and Skills</a>
+        <a href="cv.html">CV</a>
+        <a href="service.html">Service</a>
+      </nav>
     </div>
   </header>
 
@@ -31,41 +32,50 @@
     <li><a href="mailto:irfan@tamu.edu">irfan@tamu.edu</a></li>
     <li><a href="https://www.linkedin.com/in/irfan2012">LinkedIn</a></li>
     <li><a href="https://github.com/engrirfan-stack">GitHub</a></li>
-    <li><a href="cv.html">CV</a></li>
+    <li><a href="files/Irfan_Ullah_CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a></li>
   </ul>
   <p class="note">Bryan/College Station, TX<br>Open to relocation</p>
 </aside>
-
     <main class="content">
       
-<h1>Service</h1>
+<h1>Service, Teaching, Mentoring, and Awards</h1>
 
-<h2>Professional Service</h2>
-<ul>
-  <li><strong>Technical Reviewer:</strong> IEEE Power &amp; Energy Society General Meeting and Texas Power &amp; Energy Conference, 2023 - 2026. Reviewed manuscripts in power system optimization, distribution system modeling, and grid resilience.</li>
-  <li><strong>Communication Chair, Texas Power &amp; Energy Conference, 2026:</strong> Led technical communications and outreach, including conference materials, industry engagement, and speaker communications.</li>
-  <li><strong>Promotional Chair, Texas Power &amp; Energy Conference, 2024 - 2025:</strong> Coordinated outreach initiatives to support conference growth and engagement with academic and industry participants.</li>
-</ul>
+<section>
+  <h2>Teaching and Mentoring</h2>
+  <ul>
+    <li><strong>Teaching Assistant, ECEN 325, Texas A&amp;M University, Spring 2026:</strong> Supported laboratory and classroom instruction, student questions, assessment activities, and technical problem solving in electrical engineering.</li>
+    <li><strong>Exam Grader, ECEN 214, Texas A&amp;M University:</strong> Evaluated student solutions and applied consistent technical grading criteria for electrical-engineering examinations.</li>
+    <li><strong>Undergraduate Research Mentor, Aggie STEM Research Program:</strong> Guided students in distribution-system modeling, simulation setup, data analysis, research-software workflows, technical communication, and presentation preparation.</li>
+  </ul>
+</section>
 
-<h2>Teaching</h2>
-<p>
-  Teaching Assistant for ECEN 325 Electronics at Texas A&amp;M University. Supported undergraduate instruction and laboratory sessions, guiding students in circuit analysis, experimental validation, and system-level understanding of electronic circuits.
-</p>
+<section>
+  <h2>Leadership and Service</h2>
+  <ul>
+    <li><strong>Session Chair; Communication and Promotion Chair, Texas Power &amp; Energy Conference, 2024-2026:</strong> Chaired technical sessions and coordinated communications, outreach, sponsor engagement, and industry-speaker activities.</li>
+    <li><strong>Technical Reviewer, IEEE PES General Meeting and Texas Power &amp; Energy Conference, 2023-2026:</strong> Reviewed manuscripts in power systems, optimization, grid resilience, and distribution-system modeling.</li>
+    <li><strong>Aggie STEM Research Program Leader:</strong> Led and mentored undergraduate researchers in power-system modeling, simulation, data analysis, workflow development, and research presentations.</li>
+  </ul>
+</section>
 
-<h2>Research Dissemination</h2>
-<p>
-  Presented research through IEEE PES GM, IEEE TPEC, NAPS, IEEE PES T&amp;D, Grid Science Winter School and Conference, and TAMU/LANL poster events.
-</p>
+<section>
+  <h2>Awards</h2>
+  <ul>
+    <li><strong>Prime Minister's National ICT Scholarship, 2012-2016:</strong> Fully funded national scholarship recognizing academic achievement and leadership potential.</li>
+    <li><strong>National ICT Initiative Research Award, 2015-2016:</strong> Award and project funding for antenna design, simulation, prototyping, and experimental evaluation.</li>
+  </ul>
+</section>
 
     </main>
   </div>
 
   <footer class="footer">
     <div class="page-wrap">
-      <p>&copy; <span id="year"></span> Irfan Ullah. Last updated June 2026.</p>
+      <p>&copy; <span id="year"></span> Irfan Ullah. Last updated July 2026.</p>
     </div>
   </footer>
 
+  <script src="assets/restoration-bg.js"></script>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>

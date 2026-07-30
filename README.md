@@ -1,20 +1,22 @@
-# GitHub Pages update: fault-restoration background plus 5-slide media slider
+# Full GitHub Pages CV update
 
-Upload these files/folders to the repository root:
+Upload these files/folders to the root of your GitHub Pages repository:
 
 - index.html
-- assets/style.css
-- assets/restoration-bg.js
-- assets/media-slider.js
-- assets/slide-1.jpg
-- assets/slide-2.jpg
-- assets/slide-3.jpg
-- assets/slide-4.jpg
-- assets/slide-5.jpg
+- research.html
+- publications.html
+- tools.html
+- cv.html
+- service.html
+- assets/
+- files/Irfan_Ullah_CV.pdf
 
 Commit message:
+Update website with full CV and power electronics content
 
-Add restoration background and five-slide media showcase
-
-After deployment, open:
-https://engrirfan-stack.github.io/?slides=5
+This update adds:
+- Full CV content from the updated CV PDF.
+- Public downloadable CV PDF.
+- BSR desktop application section.
+- Solid-state transformer, grid-forming/grid-following converter, UPQC, and power-quality content.
+- Data-center power infrastructure and SST-based energy routing content.

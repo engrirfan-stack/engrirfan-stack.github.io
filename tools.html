@@ -4,20 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tools and Skills | Irfan Ullah</title>
-  <meta name="description" content="Academic website of Irfan Ullah, Ph.D. researcher in power systems, grid resilience, black-start restoration, maximal load delivery, DER coordination, and robust operation of data-center power infrastructure.">
+  <meta name="description" content="Academic website of Irfan Ullah, power systems researcher in grid resilience, black-start restoration, maximal load delivery, DER coordination, microgrids, power electronics, and data-center power infrastructure.">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+  <canvas id="restoration-bg" aria-hidden="true"></canvas>
   <header class="topbar">
     <div class="page-wrap">
       <nav class="nav" aria-label="Primary navigation">
-  <a href="index.html">Home</a>
-  <a href="research.html">Research</a>
-  <a href="publications.html">Publications</a>
-  <a href="tools.html">Tools and Skills</a>
-  <a href="cv.html">CV</a>
-  <a href="service.html">Service</a>
-</nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="tools.html">Tools and Skills</a>
+        <a href="cv.html">CV</a>
+        <a href="service.html">Service</a>
+      </nav>
     </div>
   </header>
 
@@ -31,66 +32,66 @@
     <li><a href="mailto:irfan@tamu.edu">irfan@tamu.edu</a></li>
     <li><a href="https://www.linkedin.com/in/irfan2012">LinkedIn</a></li>
     <li><a href="https://github.com/engrirfan-stack">GitHub</a></li>
-    <li><a href="cv.html">CV</a></li>
+    <li><a href="files/Irfan_Ullah_CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a></li>
   </ul>
   <p class="note">Bryan/College Station, TX<br>Open to relocation</p>
 </aside>
-
     <main class="content">
       
 <h1>Tools and Skills</h1>
-<p>
-  Technical skills across power systems, optimization, simulation, and programming.
-</p>
 
-<h2>Power Systems</h2>
-<div class="pill-box">
-  <span>Distribution system modeling</span>
-  <span>Multi-phase unbalanced power flow</span>
-  <span>Voltage regulation</span>
-  <span>Feeder reconfiguration</span>
-  <span>Black-start restoration</span>
-  <span>Maximal load delivery</span>
-  <span>Microgrid operation</span>
-  <span>DER integration</span>
-  <span>Grid-forming resources</span>
-  <span>Grid-following inverters</span>
-  <span>Battery energy storage</span>
-  <span>Photovoltaic generation</span>
-  <span>Cold load pickup</span>
-  <span>Data-center power infrastructure</span>
-</div>
+<section>
+  <h2>Power-System Optimization and Modeling</h2>
+  <div class="pill-box">
+    <span>Mixed-integer linear programming</span><span>Two-stage robust optimization</span><span>Master-subproblem decomposition</span><span>Rolling-horizon optimization</span><span>Multi-agent dynamic programming</span><span>Optimal power flow</span><span>Maximal load delivery</span><span>Black-start restoration</span><span>Scenario analysis</span><span>Uncertainty sets</span>
+  </div>
+</section>
 
-<h2>Optimization and Modeling</h2>
-<ul>
-  <li>Mixed-integer linear programming.</li>
-  <li>Two-stage robust optimization.</li>
-  <li>Rolling-horizon optimization.</li>
-  <li>Stochastic and dynamic programming.</li>
-  <li>Convex relaxation and physics-informed approximation.</li>
-  <li>Topology, radiality, switching, voltage, thermal, DER, and storage constraints.</li>
-  <li>Uncertainty-aware modeling for loads, PV output, DER availability, and contingency scenarios.</li>
-</ul>
+<section>
+  <h2>Power Systems and Energy Infrastructure</h2>
+  <div class="pill-box">
+    <span>Multi-phase unbalanced distribution systems</span><span>Microgrids</span><span>DER coordination</span><span>BESS optimization</span><span>Grid-forming resources</span><span>Feeder reconfiguration</span><span>Voltage regulation</span><span>Contingency analysis</span><span>Critical power infrastructure</span><span>Data-center power systems</span>
+  </div>
+</section>
 
-<h2>Software</h2>
-<table>
-  <tbody>
-    <tr><th>Optimization</th><td>Julia, JuMP, Gurobi, HiGHS, PowerModelsDistribution.jl, PowerModelsONM.jl, InfrastructureModels.jl</td></tr>
-    <tr><th>Power simulation</th><td>OpenDSS, PowerWorld, PSCAD, MATLAB/Simulink, exposure to CYME, ETAP, and PSS/E</td></tr>
-    <tr><th>Programming</th><td>Python, Julia, MATLAB, Git, GitHub</td></tr>
-    <tr><th>Workflows</th><td>OpenDSS preprocessing, JuMP model development, scenario automation, feasibility checks, result visualization, phase-level P/Q analysis, SOC analysis, and restoration timeline analysis</td></tr>
-  </tbody>
-</table>
+<section>
+  <h2>Power Electronics and Converter-Based Systems</h2>
+  <div class="pill-box">
+    <span>Solid-state transformer architecture</span><span>Grid-forming converters</span><span>Grid-following converters</span><span>UPQC</span><span>Multi-port converters</span><span>DC-link dynamics</span><span>Voltage sag and swell mitigation</span><span>Harmonic reduction</span><span>Renewable integration</span><span>BESS converter interfaces</span>
+  </div>
+</section>
+
+<section>
+  <h2>Programming, Simulation, and Research Software</h2>
+  <div class="pill-box">
+    <span>Python</span><span>Julia</span><span>JuMP</span><span>MATLAB/Simulink</span><span>PyQt</span><span>Git/GitHub</span><span>Linux</span><span>Gurobi</span><span>Ipopt</span><span>OpenDSS</span><span>PowerModelsONM.jl</span><span>PowerModelsDistribution.jl</span><span>PowerPlots</span><span>PSCAD</span><span>PSS/E</span><span>PowerWorld</span><span>CYME</span><span>ETAP</span>
+  </div>
+</section>
+
+<section>
+  <h2>BSR Desktop Application</h2>
+  <p>
+    Developed a Python-based desktop application for black-start restoration studies that integrates Julia/JuMP optimization models, PowerModelsONM.jl and PowerModelsDistribution.jl workflows, OpenDSS validation, Excel-based data handling, operating-day and contingency-scenario selection, automated visualization, restoration timeline plots, DER dispatch plots, storage state-of-charge profiles, and post-restoration network visualization.
+  </p>
+</section>
+
+<section>
+  <h2>GridResilience Studio</h2>
+  <p>
+    Founded and developed a research software platform for distribution-system analysis, optimization, restoration, validation, visualization, and diagnostics. The platform supports power flow, OPF, maximal load delivery, black-start restoration, scenario generation, OpenDSS validation, JSON/CSV/Excel reporting, and GridMate diagnostic assistance.
+  </p>
+</section>
 
     </main>
   </div>
 
   <footer class="footer">
     <div class="page-wrap">
-      <p>&copy; <span id="year"></span> Irfan Ullah. Last updated June 2026.</p>
+      <p>&copy; <span id="year"></span> Irfan Ullah. Last updated July 2026.</p>
     </div>
   </footer>
 
+  <script src="assets/restoration-bg.js"></script>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
